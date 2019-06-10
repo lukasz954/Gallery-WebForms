@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+    margin-top: auto;
+    margin-left: auto;
+    background-color: #4f5256;
+}
+.nav {
+    background-color:black;
+    text-align: center;
+    height: 80px;
+    padding-top:20px;
+    width:100%;
+}
+.text-nav {
+    text-align: center;
+    cursor: pointer;
+    
+   
+}
+
+
+.button-nav {
+    background-color: black;
+    color: white;
+    float: left;
+    width:200px;
+    height: 60px;
+    font-size: 25px;
+    font: bold;
+}
+        .button-nav:hover {
+            color: yellow;
+            background-color: dimgrey;
+            cursor: pointer;
+        }
+ 
+p {
+    font: bold;
+    font-size:20px;
+    text-align:center;
+}
+
+.cell-small-view {
+    width: 250px;
+    height: 200px;
+}
+.image-small-view {
+    width: 250px;
+    height: 200px;
+    border:solid;
+    border-color:black;
+}
+    .image-small-view:hover {
+        cursor: pointer;
+        border-color: yellow;
+    }
+.image-big-view {
+    width: 900px;
+    height: 550px;
+}
+.title {
+    color:white;
+    font-size:25px;
+}
+.description {
+    color: white;
+    font-size: 18px;
+}
+.footer {
+    color: white;
+    font-size: 25px;
+}
+.arrow {
+    width: 100px;
+    height: 40px;
+}
+.button-logo {
+width:150px;
+height:150px;
+border:solid;
+border-color:black;
+
+}
+    .button-logo:hover {
+        border-color: yellow;
+    }
+.option {
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:100px;
+}
+.header {
+    padding-top:25px;
+    text-align: center;
+    color:white;
+}

@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Gallery.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style/Style.css" rel="stylesheet" />    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="nav">
+            <div class="button-nav"><asp:LinkButton  style="text-decoration:none;color:white;" ID="LinkButton_MainPage" runat="server" OnClick="LinkButton_MainPage_Click"><p class="text-nav">Strona główna</p></asp:LinkButton>
+                </div>
+            <div class="button-nav"><asp:LinkButton  style="text-decoration:none;color:white;" ID="LinkButton_CarsPage" runat="server" OnClick="LinkButton_CarsPage_Click"><p class="text-nav">Auta</p></asp:LinkButton>
+                </div>
+            <div class="button-nav"><asp:LinkButton style="text-decoration:none;color:white;" ID="LinkButton_AnimalsPage" runat="server" OnClick="LinkButton_AnimalsPage_Click"><p class="text-nav">Zwierzęta</p></asp:LinkButton>
+                </div>
+            <div class="button-nav"><asp:LinkButton  style="text-decoration:none;color:white;" ID="LinkButton_MotorcyclePage" runat="server" OnClick="LinkButton_MotorcyclePage_Click"><p class="text-nav">Motocykle</p></asp:LinkButton>
+                </div>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+             <hr />
+            <footer class="footer">
+                <p>&copy; <%: DateTime.Now.Year %>- Galeria Łukasz Bartkowiak</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
